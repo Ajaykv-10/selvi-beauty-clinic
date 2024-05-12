@@ -12,7 +12,7 @@ export const Header = () => {
     },
     {
       id: 2,
-      path: "/",
+      path: "/services",
       name: "Services",
     },
     {
@@ -22,7 +22,7 @@ export const Header = () => {
     },
   ];
   return (
-    <div className="flex items-center justify-between p-4 shadow-sm">
+    <div className="flex items-center justify-between p-4  shadow-2xl bg-purple-100">
       <div className="flex items-center gap-10">
         <Image src="/logo.svg" alt="logo" width={180} height={80} />
         <ul className="md:flex gap-5 hidden">

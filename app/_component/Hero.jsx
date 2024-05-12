@@ -6,8 +6,7 @@ export const Hero = () => {
       <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
         <div className="max-w-3xl">
           <h2 className="text-3xl font-bold sm:text-4xl">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod alias
-            doloribus impedit.
+            K Selvi Beauty Parlour
           </h2>
         </div>
 
@@ -15,7 +14,7 @@ export const Hero = () => {
           <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
             <img
               alt="img"
-              src="https://images.unsplash.com/photo-1496843916299-590492c751f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80"
+              src="/images/parlour.jpg"
               className="absolute inset-0 h-full w-full object-cover"
             />
           </div>

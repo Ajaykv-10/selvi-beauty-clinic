@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   darkMode: ["class"],
   content: [
@@ -9,6 +10,15 @@ module.exports = {
   ],
   prefix: "",
   theme: {
+    colors: {
+      blue: {
+        950: "#17275c",
+      },
+      purple: {
+        100: "#d6b4db",
+        500: "#9005a6",
+      },
+    },
     container: {
       center: true,
       padding: "2rem",
