@@ -12,7 +12,7 @@ export const Header = () => {
     },
     {
       id: 2,
-      path: "/services",
+      path: "/beauty-pics-feed",
       name: "Services",
     },
     {
